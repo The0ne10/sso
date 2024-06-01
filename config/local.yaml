@@ -4,3 +4,5 @@ token_ttl: 1h
 grpc:
   port: 44044
   timeout: 10h
+goose_driver: sqlite3
+goose_migration_path: "./migrations"
